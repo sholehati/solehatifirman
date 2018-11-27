@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Koperasi</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+
+<body>
+
+	<div class="atas"> 
+	<div class="logo"><img src="background/manfaat-jadi-anggota-koperasi.png" height="60" width="60" ><img src="background/url.png" height="60" width="60" >KP-RI UNEJ</div>
+<div class="menu">		
+<ul class="dropmenu">
+	
+
+<li><a href="Koperasi.html">Home</a></li>
+
+
+
+<li><a href="#2">Profil</a>
+    <ul>
+    <li><a href="visiMisi.html">Visi dan Misi</a></li>
+    <li><a href="sejarah.html">Sejarah Singkat</a></li>
+    <li><a href="strutur.html">Struktur Orgaisasi</a></li>
+    <li><a href="agenda.html">Agenda Kegiatan KPRI UNEJ</a></li>
+    <li><a href="galery.html">Galeri</a></li>
+    </ul>
+</li>
+
+<li><a href="#2">Unit Simpan Pinjam</a>
+    <ul>
+    <li><a href="simpanan.html">Simpanan</a></li>
+    <li><a href="pinjamuang.html">Pinjaman Uang</a></li>
+    <li><a href="tabungan.html">Tabungan Hari Raya</a></li>
+    </ul>
+</li>
+
+<li><a href="#2">Produk</a>
+    <ul>
+        <li><a href="kp.html">Kebutuhan Pokok</a></li>
+        <li><a href="pe.html">Peralatan Elektronik</a></li>
+        <li><a href="prt.html">Peralatan Rumah Tangga</a></li>
+    </ul>
+</li>
+
+
+<li><a href="member.html">Member Area</a></li>
+
+</ul>
+<div>
+       
+        <div class="body">
+        <div class="next">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <div class="slider" align="center">
+            <img src="background/nono.jpg" style="width:100%" height="40%">
+            <div class="nama"><a href="merah.html"></a></div>
+        </div>
+        <div class="slider" align="center">
+            <img src="background/mama.jpg" style="width:100%">
+            <div class="nama"><a href="b29.html"></a></div>
+        </div>
+        <div class="slider" align="center">
+            <img src="background/lala.jpg" style="width:100%">
+            <div class="nama"><a href="tasnan.html"></a></div>
+        </div>
+            
+    </div>
+
+    <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("slider");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000);
+}
+</script>  
+
+    <div class="bawah">
+        <ul>
+
+        <li><center><font size="4">Jl Kalimatan No.27, Krajan Timur, Sumbersari,Kabupaten jember, Jawa Timur 68121</font></center></li>
+        
+        </ul>
+
+    </div>
+</body>
+
+</html>
